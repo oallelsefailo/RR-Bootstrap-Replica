@@ -2,7 +2,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Button from "react-bootstrap/Button";
 
-function TopBar() {
+export default function TopBar() {
   return (
     <div>
       <Navbar bg="light" expand="lg">
@@ -33,5 +33,3 @@ function TopBar() {
     </div>
   );
 }
-
-export default TopBar;
